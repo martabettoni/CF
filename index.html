@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF | Homepage</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Elsie&family=Gilda+Display&family=Raleway:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="styles.css"> 
+    
+</head>
+
+
+<body>
+
+  <section id="abovethefold">
+    <header class="header">
+      <div class="header__content">
+        <a class="header__logo" href="index.html">C|F</a>
+        <ul class="header__menu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="servizi.html">Servizi</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+          <div class="header__icons">
+            <div class="icon-hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <div class="grid hero">
+      
+      <div class="col-50" id="img-left-atf">
+        <img src="images/ill-senza-bg.png" alt="wellness-girl">
+      </div>
+
+
+      <div class="col-50" id="text-right-atf">
+          <img src="images/bianco.svg">
+          <h1>CF Wellness Beauty</h1>
+          <h2>lo studio boutique al servizio del #benessere del tuo corpo</h2>
+          <p>Scopri i trattamenti dedicati a chi desidera rilassarsi, ritrovare equilibrio e migliorare il proprio aspetto.</p>
+          <button><a href="tel:+393478357557">PRENOTA UN APPUNTAMENTO</a></button>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <section id="riflessologia">
+    
+    <h2>La Riflessologia</h2>
+    <div class="line"></div>
+
+    <div class="grid hero">
+
+      <div class="col-50" id="img-riflessologia">
+        <img src="images/piede.jpg" alt="piede-riflessologia">
+      </div>
+      <div class="col-50" id="text-riflessologia">
+        <p>Sebbene le sue origini siano ancora un mistero (si pensa che la pratica sia nata attorno al 3.000 a.C. in Egitto) la scoperta di una <span>connessione</span> tra piedi e corpo si deve (in tempi recenti) al dott. Fitzgerald, che nel 1902, intuì l’esistenza di una correlazione e iniziò a studiare le corrispondenze tra punti di digitopressione e organi nel corpo, per arrivare poi a comprenderne le <span>potenzialità terapeutiche</span>.</p>
+        <p>Il piede, infatti, oltre a rappresentare la nostra base capace di <span>assorbire energie</span> e di <span>trasmetterle al resto del corpo</span> è una vera e propria mappa di punti che, stimolati correttamente e trattati con cura e attenzione possono risolvere piccole problematiche corrispondenti ad altre aree del corpo.</p>
+        <p>Gli esperti di riflessologia plantare sono in grado di riequilibrare l’<span>energia vitale</span> dell’intero corpo di una persona.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer id="footer">
+
+    <div id="footer-top">
+
+      <div class="logo">
+        <h1>C|F</h1>
+        <h2>wellness & beauty</h2>
+      </div>
+
+      <div class="location item">
+        <img src="images/location-icon.svg" alt="location-icon">
+        <p>Via Fornetto 7, Angera (VA)</p>
+      </div>
+
+      <div class="email item">
+        <img src="images/email-icon.svg" alt="email-icon">
+        <p>fornicristina29@gmail.com</p>
+      </div>
+
+      <div class="tel item">
+        <img src="images/phone-icon.svg" alt="phone-icon">
+        <p>+39 347 8357557</p>
+      </div>
+
+      <div class="icons">
+          <a href="https://www.facebook.com/cfwellnessbeauty" target="_blank"><img src="images/fb-icon.svg" alt="fb-icon"></a>
+          <a href="https://www.instagram.com/cf_wellness_beauty/" target="_blank"><img src="images/ig-icon.svg" alt="ig-icon"></a>
+        </div>
+
+
+    </div>
+
+    <div class="line-footer"></div>
+    <p class="createdby"> &copy; 2023 CF Wellness Beauty | Designed &amp; developed by Marta Bettoni - All rights reserved.</p>
+
+  </footer>
+
+  <script>
+
+    let item = document.querySelector('.icon-hamburger');
+      item.addEventListener("click", function() {
+        document.body.classList.toggle('menu-open');
+    });
+
+  </script>
+
+
+
+  
+
+</body>
+</html>
