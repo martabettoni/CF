@@ -432,7 +432,7 @@ a {color: inherit;}
 
 /* !!PAGINA CONTATTI!! */
 
-.leaves-bg {width: 100%; background-image: url(images/leaves.JPG); background-size: cover;}
+.leaves-bg {width: 100%; background-image: url(images/leaves.jpg); background-size: cover;}
 .container-info {max-width: 1000px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 8vw;}
 
 .container-info img {max-height: 500px; transform:scale(1.25);}
