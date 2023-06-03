@@ -139,7 +139,7 @@ body{ background:  #F0F3F5;}
     #text-right-atf h1 {font-size: 2.5rem;}
     #text-right-atf h2 {font-size: 1.25rem;}
     #text-right-atf p {display: none;}
-    #text-right-atf button {margin:25px auto 0 30px; width: 185px;}
+    #text-right-atf button {margin:25px auto 0 35px; max-width: 170px; font-size: 13px; padding: 6px 20px;}
 }
 
 
@@ -306,6 +306,7 @@ button:active:after {
     background-color: #982161;
 }
 
+
 a {color: inherit;}
 
 /* !!PAGINA SERVIZI!! */
@@ -469,7 +470,7 @@ ul li .social {max-width: 35px;}
     .info li {font-size:1.1rem;}
     li img {max-width: 25px;}
     ul li .social {max-width: 25px;}
-    .info button {margin: 1rem auto 0; font-size: 13px;}
+    .info button {margin: 1rem auto 0;}
 
 }
 
