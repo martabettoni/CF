@@ -166,7 +166,7 @@ h2 {font-size: 3rem;margin-bottom:1.5rem;font-family: 'Gilda Display', serif;fon
     #riflessologia .line {width: 90%; margin: 0 auto;}
     #img-riflessologia {display: none;}
     #text-riflessologia {width: 100%;}
-    #text-riflessologia p {text-align: justify; text-justify:inter-word; }
+    #text-riflessologia p {text-align: justify; font-size: 1rem; }
 
     
 }
