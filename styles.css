@@ -166,7 +166,7 @@ h2 {font-size: 3rem;margin-bottom:1.5rem;font-family: 'Gilda Display', serif;fon
     #riflessologia .line {width: 90%; margin: 0 auto;}
     #img-riflessologia {display: none;}
     #text-riflessologia {width: 100%;}
-    #text-riflessologia p {text-align: justify; font-size: 1rem; }
+    #text-riflessologia p {text-align: justify; font-size: 1rem; line-height: 1.3rem;}
 
     
 }
@@ -257,6 +257,7 @@ button {
     display: inline-block;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
     margin: 0;
@@ -372,6 +373,7 @@ a {color: inherit;}
     .container h2{font-size: 2rem; margin-top: -2rem;}
     .line-ser{width: 90%; margin-bottom: 3.8rem;}
     .slide{flex-direction: column; justify-content: center; align-items: center; gap: 0.8rem; max-width: 95%; margin: 0 auto 3.8rem;}
+    .testo {line-height: 1.4rem; font-size: 1rem; margin: 0 1.5rem; text-align: center;}
     .foglia {font-size: 1.5rem; max-width: 50%; padding: 1.7rem 2.3rem; margin-bottom: 1.3rem;}
     .timing {margin-top: 0.6rem; display: flex; justify-content: center; align-items: center; gap: 15px;}
     .timing img { margin: 0;}
@@ -418,6 +420,7 @@ a {color: inherit;}
 
 @media (max-width: 768px) {
     .sezione{width: 85%; flex-direction: column; }
+    .text-top, .text-bottom {font-size: 1rem;}
     .cit {width: 85%; font-size: 1.3rem;}
     .sezione.bottom img {order: 1; max-height: 450px;}
     .text-bottom {padding: 0.7rem 0 2.5rem ; order: 2;}
