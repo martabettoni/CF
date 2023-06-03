@@ -421,7 +421,7 @@ a {color: inherit;}
 @media (max-width: 768px) {
     .sezione{width: 85%; flex-direction: column; }
     .text-top, .text-bottom {font-size: 1rem;}
-    .cit {width: 85%; font-size: 1.3rem;}
+    .cit {width: 85%; font-size: 1.2rem;}
     .sezione.bottom img {order: 1; max-height: 450px;}
     .text-bottom {padding: 0.7rem 0 2.5rem ; order: 2;}
     
