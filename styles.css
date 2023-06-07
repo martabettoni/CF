@@ -247,12 +247,12 @@ footer {background-color: #E4E5E7; padding: 2rem 0 0.5rem;}
 /* BUTTON */
 button {
     appearance: button;
-    background-color: #982161;
+    background-color: #b9af9f;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
     box-sizing: border-box;
-    color: #F0F3F5;
+    color: #293328;
     cursor: pointer;
     display: inline-block;
     font-size: 15px;
@@ -277,7 +277,7 @@ button {
    
 button:after {
     background-clip: padding-box;
-    background-color: #C2297B;
+    background-color: #e7dbc7;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
