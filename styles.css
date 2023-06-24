@@ -362,8 +362,9 @@ a {color: inherit;}
 .timing .line {position: absolute; top: 45px; left: -75px; width: 120%; border: 0.8px solid #60785E; transform: rotate(90deg);}
 
 
-.uno{background-color: #93AB91;}
-.due{background-color: #789675;;}
+.uno{background-color: #9eb39c;}
+.uno-bis{background-color: #8ba588; padding: 2.6rem 1.2rem}
+.due{background-color: #708c6d;;}
 .tre{background-color: #60785E;}
 .quattro{background-color: #485A46;}
 .cinque{background-color: #3C4B3B;}
