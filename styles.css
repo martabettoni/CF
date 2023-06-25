@@ -375,14 +375,14 @@ a {color: inherit;}
     .line-ser{width: 90%; margin-bottom: 3.8rem;}
     .slide{flex-direction: column; justify-content: center; align-items: center; gap: 0.8rem; max-width: 95%; margin: 0 auto 3.8rem;}
     .testo {line-height: 1.4rem; font-size: 1rem; margin: 0 1.5rem; text-align: center;}
-    .foglia {font-size: 1.5rem; max-width: 50%; padding: 1.7rem 2.3rem; margin-bottom: 1.3rem;}
+    .foglia {font-size: 1.5rem; max-width: 50%; padding: 1.7rem 1.2rem; margin-bottom: 1.3rem;}
     .timing {margin-top: 0.6rem; display: flex; justify-content: center; align-items: center; gap: 15px;}
     .timing img { margin: 0;}
     .timing p {margin-top: 0.5rem;}
     .timing .line {display: none;}
     .hidden-line {border: 0.8px solid #60785E; width: 80%; margin-top: 0.5rem;}
 
-
+    .uno-bis{padding: 2.45rem 1.2rem}
     /* !!SLIDER!! */
 
       
