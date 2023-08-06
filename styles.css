@@ -363,11 +363,14 @@ a {color: inherit;}
 
 
 .uno{background-color: #9eb39c;}
-.uno-bis{background-color: #8ba588; padding: 2.6rem 1.2rem}
-.due{background-color: #708c6d;;}
-.tre{background-color: #60785E;}
-.quattro{background-color: #485A46;}
-.cinque{background-color: #3C4B3B;}
+.due{background-color: #8ba588;}
+.tre{background-color: #789675; padding: 2.6rem 1.2rem}
+.quattro{background-color: #678165;}
+.cinque{background-color: #566c54;}
+.sei{background-color: #465744;}
+.sette{background-color: #354233;}
+
+/* colore di partenza: #789675 a intervalli di 14% */
 
 @media (max-width: 768px) {
     .container{width: 100%;}
@@ -382,10 +385,7 @@ a {color: inherit;}
     .timing .line {display: none;}
     .hidden-line {border: 0.8px solid #60785E; width: 80%; margin-top: 0.5rem;}
 
-    .uno-bis{padding: 2.45rem 1.2rem}
-    /* !!SLIDER!! */
-
-      
+    .tre{padding: 2.45rem 1.2rem}  
 
 }
 
